@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lizardlaura/portfolio-project.git/static/css/main.1c15026b.css",
-    "main.js": "/lizardlaura/portfolio-project.git/static/js/main.db8b04d2.js",
-    "static/js/453.bde41057.chunk.js": "/lizardlaura/portfolio-project.git/static/js/453.bde41057.chunk.js",
-    "index.html": "/lizardlaura/portfolio-project.git/index.html",
-    "main.1c15026b.css.map": "/lizardlaura/portfolio-project.git/static/css/main.1c15026b.css.map",
-    "main.db8b04d2.js.map": "/lizardlaura/portfolio-project.git/static/js/main.db8b04d2.js.map",
-    "453.bde41057.chunk.js.map": "/lizardlaura/portfolio-project.git/static/js/453.bde41057.chunk.js.map"
+    "main.css": "/portfolio-project.git/static/css/main.1c15026b.css",
+    "main.js": "/portfolio-project.git/static/js/main.0e6f83d2.js",
+    "static/js/453.bde41057.chunk.js": "/portfolio-project.git/static/js/453.bde41057.chunk.js",
+    "index.html": "/portfolio-project.git/index.html",
+    "main.1c15026b.css.map": "/portfolio-project.git/static/css/main.1c15026b.css.map",
+    "main.0e6f83d2.js.map": "/portfolio-project.git/static/js/main.0e6f83d2.js.map",
+    "453.bde41057.chunk.js.map": "/portfolio-project.git/static/js/453.bde41057.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c15026b.css",
-    "static/js/main.db8b04d2.js"
+    "static/js/main.0e6f83d2.js"
   ]
 }
