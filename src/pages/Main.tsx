@@ -9,7 +9,7 @@ const Main = () => {
         <div className="py-2 md:px-12 px-6 text-left flex flex-col gap-3">
             <HeroBanner />
             {portfolio.map((item:any, index:number)=>(
-               <Portfolio index={index} item={item} />
+               <Portfolio index={index} item={item} key={index} />
             ))}
         </div>
         <footer className='h-20' />

@@ -9,7 +9,8 @@ function App() {
     <div>
       <Navbar path="/"/>
       <Routes>
-        <Route path='/' element={<Main />} />
+        <Route path='/' element={<Main />} /> 
+        <Route path='/portfolio-project' element={<Main />} /> 
       </Routes>
     </div>
   );

@@ -27,7 +27,7 @@ const Navbar = ({path}:{path:any}) => {
         </div>
         <div className="flex justify-end w-full text-xl">
           {routes.map((route, index)=>
-            <nav className={`p-2 ${index !== routes.length-1 && "right-border"} ${route.path===path ? "white-shade opacity-100" : "opacity-70"}`}>
+            <nav key={index} className={`p-2 ${index !== routes.length-1 && "right-border"} ${route.path===path ? "white-shade opacity-100" : "opacity-70"}`}>
               {route.icon}
             </nav>          
           )}
