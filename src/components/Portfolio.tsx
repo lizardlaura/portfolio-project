@@ -19,7 +19,7 @@ const Portfolio = ({ index, item }: Portfolio) => {
             {item.subtitle}
           </span>
         )}
-        <span className="">{item.description}</span>
+        {/* <span className="">{item.description}</span> */}
       </div>
 
       {item.image != "" && 

@@ -1,8 +1,8 @@
 import { FlaskConical, House, Mail } from "lucide-react"
 // import HalftoneEffect from "./HalftoneEffect"
-const svgStyle={boxShadow:'0 0 3px white'}
+
 const routes = [
-  {path:'/', name: 'Main', icon: <House style={svgStyle}/>},
+  {path:'/', name: 'Main', icon: <House />},
   {path:'/contact', name:'Contact', icon: <Mail />},
   {path:'/personal-projects', name:"Personal Projects", icon: <FlaskConical />},
 ]
@@ -18,14 +18,14 @@ const Navbar = ({path}:{path:any}) => {
         <div className="text-2xl text-left chosen-font min-w-0">
             {username}
         </div>
-        <div className="flex justify-end text-xl min-w-0">
+        {/* <div className="flex justify-end text-xl min-w-0">
           {routes.map((route, index)=>
-            <nav key={index} className={`p-2 ${index !== routes.length-1 && "right-border"} ${route.path===path ? "white-shade opacity-100" : "opacity-70"}`}>
+            <nav key={index} className={`p-2 ${index !== routes.length-1 && "right-border"} ${route.path===path ? " opacity-100" : "opacity-70"}`}>
               {route.icon}
             </nav>          
           )}
             
-        </div>
+        </div> */}
     </div>
       </div>
     

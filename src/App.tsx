@@ -11,7 +11,7 @@ function App() {
 
       <Navbar path="/"/>
       {/* <HalftoneEffect /> */}
-      <DevWarning />
+      {/* <DevWarning /> */}
       <Routes>
         <Route path='/' element={<Main />} /> 
         <Route path='/portfolio-project' element={<Main />} /> 
