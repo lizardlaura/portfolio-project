@@ -1,4 +1,5 @@
 import { FlaskConical, House, Mail } from "lucide-react"
+// import HalftoneEffect from "./HalftoneEffect"
 const svgStyle={boxShadow:'0 0 3px white'}
 const routes = [
   {path:'/', name: 'Main', icon: <House style={svgStyle}/>},
@@ -6,26 +7,18 @@ const routes = [
   {path:'/personal-projects', name:"Personal Projects", icon: <FlaskConical />},
 ]
 
+const username = "Laura Saidi"
+
 const Navbar = ({path}:{path:any}) => {
   return (
-    <div className="relative">
+    <div className="relative w-full">
       <div className="fixed nav-shadow" />
-    <div className="navbar bebas-neue-regular relative z-20">
-      {/* <svg viewBox="0 0 2000 50" xmlns='http://www.w3.org/2000/svg' className="absolute nav-shadow">
-  <filter id='noiseFilter'>
-    <feTurbulence 
-      type='fractalNoise' 
-      baseFrequency='0.65' 
-      numOctaves='5' 
-      stitchTiles='stitch' />
-  </filter>
-
-  <rect width='100%' height='100%' filter='url(#noiseFilter)' />
-  </svg> */}
-        <div className="text-[2.5rem] text-left w-full">
-            Laura Saidi
+      <div className="navbar-container">
+      <div className="navbar bebas-neue-regular relative z-20 min-w-0 gap-0">
+        <div className="text-2xl text-left md:text-[2.5rem] min-w-0">
+            {username}
         </div>
-        <div className="flex justify-end w-full text-xl">
+        <div className="flex justify-end text-xl min-w-0">
           {routes.map((route, index)=>
             <nav key={index} className={`p-2 ${index !== routes.length-1 && "right-border"} ${route.path===path ? "white-shade opacity-100" : "opacity-70"}`}>
               {route.icon}
@@ -34,6 +27,8 @@ const Navbar = ({path}:{path:any}) => {
             
         </div>
     </div>
+      </div>
+    
     </div>
   )
 }

@@ -8,7 +8,7 @@ const Portfolio = ({ index, item }: Portfolio) => {
   return (
     <div
       key={index}
-      className={` max-w-full self-center rounded-lg portfolio-item z-10 grid grid-cols-2 hover:scale-[1.01] transition-transform duration-300`}
+      className={` max-w-full self-center rounded-lg portfolio-item z-10 grid md:grid-cols-2 hover:scale-[1.01] transition-transform duration-300`}
     >
       <div className="flex flex-col self-center p-4">
         <span className="text-2xl dark-purple-font bebas-neue-regular">
@@ -24,7 +24,7 @@ const Portfolio = ({ index, item }: Portfolio) => {
 
       {item.image != "" && 
        <div className="justify-self-center image-container min-h-[300px] min-w-full">
-        <img src={item.image} className="rounded-r-lg"/>
+        <img src={item.image} className="md:rounded-r-lg md:rounded-b-none rounded-b-lg"/>
       </div>
       }
      

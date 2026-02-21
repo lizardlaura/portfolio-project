@@ -29,7 +29,13 @@
 
   --primary-light-transparent: #faf3e100;
 }
-
+*,
+*::before,
+*::after {
+    margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -102,26 +108,45 @@ button:focus-visible {
 .hero-banner{
   background-color: var(--primary-light);
 }
+
+.navbar-container{
+  width: 100vw ;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: grid;
+  /* place-content: center; */
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  height: 75px;
+}
 .navbar{
   background: var(--primary-light);
   width: 95vw;
-  position: fixed;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  max-height: auto;
+  
   height: auto;
   display:  flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: space-between;
   border: 1px solid var(--primary-dark);
   z-index: 20;
   border-radius: 999px;
-  padding: 0px 30px;
+  padding: 5px 30px;
   box-shadow: 0 0 5px var(--primary-dark);
+  min-width: 200px;
+  box-sizing: border-box;
 }
 
+.navbar > * {
+  min-width: 0;
+}
+
+@media (max-width: 768px){
+  .navbar{
+    padding: 5px 20px;
+  }
+}
 .right-border{
   border-right: var(--primary-dark) 1px solid;
 }
@@ -135,8 +160,8 @@ button:focus-visible {
 }
 
 .nav-shadow{
-  width: 100vw;
-  height: 100px;
+  width: 100%;
+  height: 80px;
   top:0px; left: 0px;
 background: linear-gradient(180deg, var(--secondary-dark), var(--primary-light-transparent));
   z-index: 19;
