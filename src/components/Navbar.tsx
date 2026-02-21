@@ -12,10 +12,10 @@ const username = "Laura Saidi"
 const Navbar = ({path}:{path:any}) => {
   return (
     <div className="relative w-full">
-      <div className="fixed nav-shadow" />
+      {/* <div className="fixed nav-shadow" /> */}
       <div className="navbar-container">
-      <div className="navbar bebas-neue-regular relative z-20 min-w-0 gap-0">
-        <div className="text-2xl text-left md:text-[2.5rem] min-w-0">
+      <div className="navbar chosen-font relative z-20 min-w-0 gap-0">
+        <div className="text-2xl text-left chosen-font min-w-0">
             {username}
         </div>
         <div className="flex justify-end text-xl min-w-0">

@@ -4,6 +4,7 @@ import Portfolio from '../components/Portfolio'
 import bijouScreenshot from '../assets/images/bijou_mobile.png'
 import btPkg from '../assets/images/bullet_trainpkg.jpg'
 import apr from '../assets/images/hyp-apr-16.webp'
+import SkillSection from '../components/SkillSection'
 const portfolioList = [
     {
         title:"UI Design",
@@ -33,6 +34,7 @@ const Main = () => {
         <div className="h-[80px]"></div>
         <div className="py-2 md:px-12 px-6 text-left flex flex-col gap-3">
             <HeroBanner />
+            <SkillSection />
             {portfolioList.map((item:any, index:number)=>(
                <Portfolio index={index} item={item} key={index} />
             ))}

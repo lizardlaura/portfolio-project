@@ -11,7 +11,7 @@ const Portfolio = ({ index, item }: Portfolio) => {
       className={` max-w-full self-center rounded-lg portfolio-item z-10 grid md:grid-cols-2 hover:scale-[1.01] transition-transform duration-300`}
     >
       <div className="flex flex-col self-center p-4">
-        <span className="text-2xl dark-purple-font bebas-neue-regular">
+        <span className="text-2xl bebas-neue-regular">
           {item.title}
         </span>
         {item.subtitle !== "" && (
