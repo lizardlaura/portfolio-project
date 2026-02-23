@@ -12,7 +12,7 @@ const HeroBanner = () => {
         <div className="py-5 pl-5 flex flex-col items-center gap-3">
           <h1 className="chosen-font  text-center">Laura Saidi</h1>
           <div className="image-cropper">
-            <img className="" src={hero} />
+            <img src={hero} alt='Laura' />
           </div>
           <span className="chosen-font text-2xl">
             Frontend Developer

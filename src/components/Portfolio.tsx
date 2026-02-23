@@ -1,10 +1,10 @@
 
 
-interface Portfolio {
+interface PortfolioType {
   index: number;
-  item: { title: string; subtitle: string; description: string; image:string };
+  item: { title: string; subtitle: string; description: string; image:string, alt:string };
 }
-const Portfolio = ({ index, item }: Portfolio) => {
+const Portfolio = ({ index, item }: PortfolioType) => {
   return (
     <div
       key={index}
@@ -22,9 +22,9 @@ const Portfolio = ({ index, item }: Portfolio) => {
         {/* <span className="">{item.description}</span> */}
       </div>
 
-      {item.image != "" && 
+      {item.image !== "" && 
        <div className="justify-self-center image-container min-h-[300px] min-w-full">
-        <img src={item.image} className="md:rounded-r-lg md:rounded-b-none rounded-b-lg"/>
+        <img src={item.image} alt={item.alt} className="md:rounded-r-lg md:rounded-b-none rounded-b-lg"/>
       </div>
       }
      

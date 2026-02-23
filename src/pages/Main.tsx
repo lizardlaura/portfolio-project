@@ -14,6 +14,7 @@ const portfolioList = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lectus imperdiet massa facilisis dignissim. Integer at metus interdum ipsum posuere lacinia. In convallis quis tellus a vestibulum. Aliquam erat volutpat. Cras porttitor diam nec dapibus porttitor. Aenean auctor odio sed ornare facilisis. Cras luctus pretium facilisis. Nunc viverra velit at quam dignissim lacinia.",
     image: bijouScreenshot,
+    alt: "Bijou2100 UI Settings"
   },
   {
     title: "Silkscreen Artwork Design",
@@ -21,6 +22,7 @@ const portfolioList = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lectus imperdiet massa facilisis dignissim. Integer at metus interdum ipsum posuere lacinia. In convallis quis tellus a vestibulum. Aliquam erat volutpat. Cras porttitor diam nec dapibus porttitor. Aenean auctor odio sed ornare facilisis. Cras luctus pretium facilisis. Nunc viverra velit at quam dignissim lacinia.",
     image: apr,
+    alt: "Hyperion APR-16 Silkscreen artwork"
   },
   {
     title: "Package Design",
@@ -28,6 +30,8 @@ const portfolioList = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lectus imperdiet massa facilisis dignissim. Integer at metus interdum ipsum posuere lacinia. In convallis quis tellus a vestibulum. Aliquam erat volutpat. Cras porttitor diam nec dapibus porttitor. Aenean auctor odio sed ornare facilisis. Cras luctus pretium facilisis. Nunc viverra velit at quam dignissim lacinia.",
     image: btPkg,
+    alt: "Bullet Train HDMI Packaging"
+
   },
 ];
 const Main = () => {

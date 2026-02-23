@@ -1,11 +1,11 @@
-import { FlaskConical, House, Mail } from "lucide-react"
+// import { FlaskConical, House, Mail } from "lucide-react"
 // import HalftoneEffect from "./HalftoneEffect"
 
-const routes = [
-  {path:'/', name: 'Main', icon: <House />},
-  {path:'/contact', name:'Contact', icon: <Mail />},
-  {path:'/personal-projects', name:"Personal Projects", icon: <FlaskConical />},
-]
+// const routes = [
+//   {path:'/', name: 'Main', icon: <House />},
+//   {path:'/contact', name:'Contact', icon: <Mail />},
+//   {path:'/personal-projects', name:"Personal Projects", icon: <FlaskConical />},
+// ]
 
 const username = "Laura Saidi"
 

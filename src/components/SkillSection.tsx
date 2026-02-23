@@ -27,11 +27,6 @@ const hardwareItems = ["Soldering", "Arduino", "ESP32"];
 
 const SkillSection = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
-  const animate = {
-    animate: { opacity: 1 },
-    transition: { delay: 0.3 },
-    initial: { opacity: 0 },
-  };
   const skillList = [
     { title: "Languages", skills: languageItems },
     { title: "Development", skills: devItems },

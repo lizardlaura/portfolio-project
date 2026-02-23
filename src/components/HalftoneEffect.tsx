@@ -1,24 +1,24 @@
 import { useState, useEffect } from "react";
 
-const useWindowDimensions = () => {
-  const [windowDimensions, setWindowDimensions] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
-  });
+// const useWindowDimensions = () => {
+//   const [windowDimensions, setWindowDimensions] = useState({
+//     width: window.innerWidth,
+//     height: window.innerHeight,
+//   });
 
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowDimensions({
-        width: window.innerWidth,
-        height: window.innerHeight,
-      });
-    };
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+//   useEffect(() => {
+//     const handleResize = () => {
+//       setWindowDimensions({
+//         width: window.innerWidth,
+//         height: window.innerHeight,
+//       });
+//     };
+//     window.addEventListener("resize", handleResize);
+//     return () => window.removeEventListener("resize", handleResize);
+//   }, []);
 
-  return windowDimensions;
-};
+//   return windowDimensions;
+// };
 const HalftoneEffect = () => {
   //create an array of window sisze
   const [psuedoArray, setPsuedoArray] = useState(Array(20).fill(1))
