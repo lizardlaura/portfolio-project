@@ -2,6 +2,7 @@ import { Linkedin } from "lucide-react";
 import hero from "../assets/images/hero_image.jpg";
 
 const HeroBanner = () => {
+  //need to save something...
   return (
     <>
     
