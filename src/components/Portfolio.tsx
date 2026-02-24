@@ -3,28 +3,24 @@
 interface PortfolioType {
   index: number;
   item: { title: string; subtitle: string; description: string; image:string, alt:string };
+  handleClick: ()=>void
 }
-const Portfolio = ({ index, item }: PortfolioType) => {
+const Portfolio = ({ index, item, handleClick }: PortfolioType) => {
   return (
     <div
       key={index}
-      className={` max-w-full self-center rounded-lg portfolio-item z-10 grid md:grid-cols-2 hover:scale-[1.01] transition-transform duration-300`}
+      className={` max-w-full lg:w-[35%] w-[80%] self-center rounded-lg portfolio-item z-10 grid  hover:scale-[1.01] transition-transform duration-300`}
+      onClick={handleClick}
     >
       <div className="flex flex-col self-center p-4">
         <span className="text-2xl bebas-neue-regular">
           {item.title}
         </span>
-        {item.subtitle !== "" && (
-          <span className="text-sm text-neutral-600 italic">
-            {item.subtitle}
-          </span>
-        )}
-        {/* <span className="">{item.description}</span> */}
       </div>
 
       {item.image !== "" && 
        <div className="justify-self-center image-container min-h-[300px] min-w-full">
-        <img src={item.image} alt={item.alt} className="md:rounded-r-lg md:rounded-b-none rounded-b-lg"/>
+        <img src={item.image} alt={item.alt} className="rounded-b-lg"/>
       </div>
       }
      

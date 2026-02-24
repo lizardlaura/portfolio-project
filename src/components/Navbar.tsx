@@ -9,7 +9,7 @@
 
 const username = "Laura Saidi"
 
-const Navbar = ({path}:{path:any}) => {
+const Navbar = () => {
   return (
     <div className="relative w-full">
       {/* <div className="fixed nav-shadow" /> */}

@@ -5,7 +5,7 @@ const AppShellContent =()=>{
     const location = useLocation()
     return(
         <div>
-        <Navbar path={location} />
+        <Navbar  />
         <Outlet />
         </div>
     )
