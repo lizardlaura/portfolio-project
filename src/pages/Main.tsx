@@ -42,6 +42,7 @@ const Main = () => {
   };
   return (
     <AnimatePresence mode={"wait"}>
+      
       <div className="relative">
         <div className="h-[80px]"></div>
         <div className="py-2 md:px-12 px-6 text-left flex flex-col gap-3">
