@@ -22,8 +22,8 @@ const HeroBanner = () => {
           
           
         </div>
-        <div className="grid gap-4">
-          <p className="md:text-2xl text-lg">
+        <div className="grid gap-2">
+          <p className="md:text-2xl text-lg md:pr-6">
             Laura is a frontend developer specializing in intuitive,
             easy-to-navigate user interfaces. 
           </p>

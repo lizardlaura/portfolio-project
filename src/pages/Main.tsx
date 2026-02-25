@@ -33,9 +33,11 @@ const portfolioList = [
   },
 ];
 const Main = () => {
+  const [imageIndex, setImageIndex] = useState(0)
   const [pictureViewOpen, setPictureViewOpen] = useState(false);
-  const handleOpen = () => {
-    console.log("Click Detected");
+  const handleOpen = (index:number) => {
+    
+    setImageIndex(index)
     setPictureViewOpen(true);
   };
   return (
@@ -72,7 +74,7 @@ const Main = () => {
         {pictureViewOpen && (
           
             <PictureDisplay
-              imageInfo={{ source: bijouScreenshot, alt: "bijou" }}
+              imageInfo={{ source: portfolioList[imageIndex].image, alt: portfolioList[imageIndex].alt }}
               handleClick={() => setPictureViewOpen(false)}
             />
           
