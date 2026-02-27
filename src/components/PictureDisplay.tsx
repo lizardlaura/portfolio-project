@@ -58,7 +58,7 @@ const graphicDesignRotation = [
 
 const PictureDisplay = ({ rotationIndex, handleClick, title }: ImageInfo) => {
   const [imageIndex, setImageIndex] = useState(0);
-  const [imageLineup, setImageLineup] = useState(silkscreenRotation);
+  const [imageLineup, setImageLineup] = useState<SourceAlt[]>(silkscreenRotation);
   useEffect(() => {
     //building for later
     setImageLineup(() => {
