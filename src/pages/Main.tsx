@@ -10,6 +10,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
 import PictureDisplay from "../components/PictureDisplay";
 import Subtitle from "../components/Subtitle";
+
 const portfolioList = [
   {
     title: "UI Design",
@@ -74,6 +75,7 @@ const Main = () => {
               ))}
             </div>
           </motion.div>
+
         </div>
         {pictureViewOpen && (
           
@@ -84,7 +86,9 @@ const Main = () => {
             />
           
         )}
+       
         <footer className="h-20" />
+        
       </div>
     </AnimatePresence>
   );
