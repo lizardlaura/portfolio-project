@@ -1,19 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd7d9d14.css",
-    "main.js": "/static/js/main.e7728d05.js",
+    "main.css": "/static/css/main.d7b9e288.css",
+    "main.js": "/static/js/main.cb112792.js",
     "static/js/453.bde41057.chunk.js": "/static/js/453.bde41057.chunk.js",
+    "static/media/Penta_Rear_Panel.png": "/static/media/Penta_Rear_Panel.b0631e53f2036f6c6852.png",
+    "static/media/a10-top.png": "/static/media/a10-top.d93a2854fdb0cdd8712a.png",
+    "static/media/a16-top.png": "/static/media/a16-top.aad8517d8634f167621f.png",
+    "static/media/RCV_Rear_Panel.png": "/static/media/RCV_Rear_Panel.b5ec67d381965b8b992a.png",
+    "static/media/APR_Rear_Panel.png": "/static/media/APR_Rear_Panel.290405d5541b1adbdcab.png",
+    "static/media/Hepta_Rear_Panel.png": "/static/media/Hepta_Rear_Panel.dcbc571010cdba998337.png",
+    "static/media/Tetra_Rear_Panel.png": "/static/media/Tetra_Rear_Panel.e5c9eacd38a41a8444f3.png",
+    "static/media/a2-top.png": "/static/media/a2-top.ca80b75989713905e746.png",
+    "static/media/DPR_Rear_Panel.png": "/static/media/DPR_Rear_Panel.94c0d4880adab5d94a9f.png",
     "static/media/bullet_trainpkg.jpg": "/static/media/bullet_trainpkg.65426652225ed006c22f.jpg",
+    "static/media/Bijou5100DTop.png": "/static/media/Bijou5100DTop.bae9446682eb94d6bc4a.png",
     "static/media/hero_image.jpg": "/static/media/hero_image.a2b182d5cb2be624ea16.jpg",
     "static/media/hyp-apr-16.png": "/static/media/hyp-apr-16.23a75baea62e54438b31.png",
+    "static/media/AXIS10_Rear.png": "/static/media/AXIS10_Rear.3ceca3325cab69456e8e.png",
+    "static/media/Bijou5100DBack.png": "/static/media/Bijou5100DBack.a9b5b566cfc4d49e5e15.png",
     "static/media/bijou_mobile.png": "/static/media/bijou_mobile.a6386cc0f250f2939b85.png",
+    "static/media/Hepta_Power_Left.png": "/static/media/Hepta_Power_Left.ffebdae4052b9c0c5a54.png",
+    "static/media/AXIS10_Front.png": "/static/media/AXIS10_Front.36ab66fda7123d4a57f9.png",
     "index.html": "/index.html",
-    "main.fd7d9d14.css.map": "/static/css/main.fd7d9d14.css.map",
-    "main.e7728d05.js.map": "/static/js/main.e7728d05.js.map",
+    "main.d7b9e288.css.map": "/static/css/main.d7b9e288.css.map",
+    "main.cb112792.js.map": "/static/js/main.cb112792.js.map",
     "453.bde41057.chunk.js.map": "/static/js/453.bde41057.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd7d9d14.css",
-    "static/js/main.e7728d05.js"
+    "static/css/main.d7b9e288.css",
+    "static/js/main.cb112792.js"
   ]
 }
