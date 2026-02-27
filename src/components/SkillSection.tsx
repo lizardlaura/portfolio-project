@@ -2,6 +2,7 @@ import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
 import { motion } from "motion/react";
+import Subtitle from "./Subtitle";
 
 const languageItems = [
   "HTML",
@@ -12,7 +13,7 @@ const languageItems = [
   "GO",
 ];
 
-const devItems = ["React", "Vue", "Next.js", "Vite", "Node.js", "Flutter"];
+const devItems = ["React", "Vue", "Next.js", "Vite", "Node.js", "Flutter", "Tailwind"];
 const projectItems = ["Git", "Jira", "Bitbucket"];
 const designItems = [
   "Figma",
@@ -41,9 +42,7 @@ const SkillSection = () => {
       className={`w-full grid ${isCollapsed ? "max-h-[158px]" : "max-h-[800px]"} transition-all duration-500`}
     >
       <div className="w-full relative grid">
-        <span className="chosen-font text-center text-xl border-b-[1px] p-2 mb-1 border-b-white/10">
-          Skills
-        </span>
+        <Subtitle text="Skills" />
         <button
           className="absolute top-2 p-0 bg-transparent"
           onClick={() => setIsCollapsed((prev) => !prev)}

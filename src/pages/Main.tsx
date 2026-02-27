@@ -9,6 +9,7 @@ import SkillSection from "../components/SkillSection";
 import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
 import PictureDisplay from "../components/PictureDisplay";
+import Subtitle from "../components/Subtitle";
 const portfolioList = [
   {
     title: "UI Design",
@@ -25,7 +26,7 @@ const portfolioList = [
     alt: "Hyperion APR-16 Silkscreen artwork",
   },
   {
-    title: "Package Design",
+    title: "Graphic Design",
     subtitle: "",
     description: "",
     image: btPkg,
@@ -60,7 +61,9 @@ const Main = () => {
             className="flex flex-col gap-3"
           >
             <SkillSection />
+            <Subtitle text="Work" />
             <div className="flex flex-col justify-evenly gap-3 lg:flex-row">
+              
               {portfolioList.map((item: any, index: number) => (
                 <Portfolio
                   index={index}
@@ -75,8 +78,9 @@ const Main = () => {
         {pictureViewOpen && (
           
             <PictureDisplay
-              imageInfo={{ source: portfolioList[imageIndex].image, alt: portfolioList[imageIndex].alt }}
+              rotationIndex={imageIndex}
               handleClick={() => setPictureViewOpen(false)}
+              title={portfolioList[imageIndex].title}
             />
           
         )}
