@@ -37,7 +37,7 @@ const BusinessCard = () => {
     <div className="businesscard relative" ref={cardRef}>
       <div className="flex gap-8 items-center justify-evenly h-full">
         <div className="image-cropper">
-          <img src={hero} />
+          <img src={hero} alt='hero image' />
         </div>
         <div className="chosen-font flex flex-col gap-2">
           <span className="text-[4rem] text-shadow-default">Laura Saidi</span>
