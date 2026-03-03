@@ -16,7 +16,7 @@ const HeroBanner = () => {
             <img src={hero} alt='Laura' />
           </div>
           <span className="chosen-font text-2xl">
-            Frontend Developer
+            Developer & Designer
           </span>
             
           
@@ -24,8 +24,7 @@ const HeroBanner = () => {
         </div>
         <div className="grid gap-2">
           <p className="md:text-2xl text-lg md:pr-6">
-            Laura is a frontend developer specializing in intuitive,
-            easy-to-navigate user interfaces. 
+            I am a UI developer and graphic designer, bridging the gap between aesthetics and functionality to create seamless user experiences.
           </p>
           <div className="flex gap-2 items-center">
             <span className="text-lg">Connect with me:</span>
