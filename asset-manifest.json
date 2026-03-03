@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7b9e288.css",
-    "main.js": "/static/js/main.cb112792.js",
+    "main.css": "/static/css/main.a7074489.css",
+    "main.js": "/static/js/main.f1966725.js",
     "static/js/453.bde41057.chunk.js": "/static/js/453.bde41057.chunk.js",
     "static/media/Penta_Rear_Panel.png": "/static/media/Penta_Rear_Panel.b0631e53f2036f6c6852.png",
     "static/media/a10-top.png": "/static/media/a10-top.d93a2854fdb0cdd8712a.png",
@@ -22,12 +22,12 @@
     "static/media/Hepta_Power_Left.png": "/static/media/Hepta_Power_Left.ffebdae4052b9c0c5a54.png",
     "static/media/AXIS10_Front.png": "/static/media/AXIS10_Front.36ab66fda7123d4a57f9.png",
     "index.html": "/index.html",
-    "main.d7b9e288.css.map": "/static/css/main.d7b9e288.css.map",
-    "main.cb112792.js.map": "/static/js/main.cb112792.js.map",
+    "main.a7074489.css.map": "/static/css/main.a7074489.css.map",
+    "main.f1966725.js.map": "/static/js/main.f1966725.js.map",
     "453.bde41057.chunk.js.map": "/static/js/453.bde41057.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7b9e288.css",
-    "static/js/main.cb112792.js"
+    "static/css/main.a7074489.css",
+    "static/js/main.f1966725.js"
   ]
 }
