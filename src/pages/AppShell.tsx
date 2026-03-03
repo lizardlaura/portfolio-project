@@ -1,11 +1,11 @@
 import { Outlet, useLocation } from "react-router-dom"
-import Navbar from "../components/Navbar"
+// import Navbar from "../components/Navbar"
 
 const AppShellContent =()=>{
     const location = useLocation()
     return(
         <div>
-        <Navbar  />
+        {/* <Navbar  /> */}
         <Outlet />
         </div>
     )
