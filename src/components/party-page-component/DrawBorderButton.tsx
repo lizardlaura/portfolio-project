@@ -1,4 +1,3 @@
-import { hover } from "motion";
 import { useRef, useEffect, useState, ReactNode } from "react";
 
 interface DrawBorderButtonProps {

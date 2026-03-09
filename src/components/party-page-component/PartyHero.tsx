@@ -30,7 +30,7 @@ const PartyHero = () => {
             className="w-auto object-cover h-[75vh]"
           />
           <div
-            className={`${activeImg === index ? "opacity-0" : "md:opacity-100"} opacity-0 ${index == 0 ? "bg-orange-600" : index === 1 ? "bg-green-600" : "bg-purple-600"} h-full w-full absolute top-0 left-0 transition-opacity duration-500`}
+            className={`${activeImg === index ? "opacity-0" : "md:opacity-100"} opacity-0 ${index === 0 ? "bg-orange-600" : index === 1 ? "bg-green-600" : "bg-purple-600"} h-full w-full absolute top-0 left-0 transition-opacity duration-500`}
           />
           <div className="absolute bottom-2 right-2 text-2xl p-2">
             <span
