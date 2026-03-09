@@ -46,6 +46,7 @@ const SkillSection = () => {
         <button
           className="absolute top-2 p-0 bg-transparent"
           onClick={() => setIsCollapsed((prev) => !prev)}
+          aria-label="Expand Skills Section"
         >
           <ChevronDown
             className={`${isCollapsed && "-rotate-90"} transition-transform duration-300`}
@@ -63,7 +64,7 @@ const SkillSection = () => {
           {languageItems.map((item) => (
             <span className="p-[0.6em]">{item}</span>
           ))}
-          <button className="p-[0.6em]" onClick={() => setIsCollapsed(false)}>
+          <button className="p-[0.6em]" onClick={() => setIsCollapsed(false)} aria-label="Expand Skills Section">
             ... more
           </button>
         </motion.div>

@@ -7,7 +7,8 @@ interface PortfolioType {
 }
 const Portfolio = ({ index, item, handleClick }: PortfolioType) => {
   return (
-    <div
+    <button
+      aria-label={`See ${item.title} gallery`}
       key={index+'-'+item.title}
       className={` max-w-full lg:w-[35%] w-[80%] self-center rounded-lg portfolio-item z-10 grid  hover:scale-[1.01] transition-transform duration-300`}
       onClick={()=>handleClick(index)}
@@ -24,7 +25,7 @@ const Portfolio = ({ index, item, handleClick }: PortfolioType) => {
       </div>
       }
      
-    </div>
+    </button>
   );
 };
 

@@ -59,6 +59,15 @@ const graphicDesignRotation = [
 const PictureDisplay = ({ rotationIndex, handleClick, title }: ImageInfo) => {
   const [imageIndex, setImageIndex] = useState(0);
   const [imageLineup, setImageLineup] = useState<SourceAlt[]>(silkscreenRotation);
+  
+  useEffect(()=>{
+    document.addEventListener('keydown',(e)=>{
+      if(e.key=='Escape'){
+        handleClick()
+      }
+    })
+  },[])
+ 
   useEffect(() => {
     //building for later
     setImageLineup(() => {
